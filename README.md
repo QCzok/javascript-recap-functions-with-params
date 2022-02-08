@@ -1,17 +1,11 @@
 # javascript-recap-functions-with-params
 
-Eine Funktion soll prüfen, ob eine Person auf der Gästeliste steht.
+Ein Klubbesitzer will prüfen, ob die Besucher eines Abendprogrammes auf der Gästeliste stehen.
 
-Schreibe ein Array namens "gastliste" und mit folgenden Werten: "Chuck", "John", "Peter", "Robert", "Diana", "Lucy", "Bob", "Charls", "Anabelle", "Ben" und "Simon".
+Die Gästeliste ist bei uns ein Array. Sie enthält: Chuck, John, Peter, Robert, Diana, Lucy, Bob, Charls, Anabelle und Simon.
 
-Eine Funktion bekommt den Namen des Gastes als Parameter übergeben.
+Nun schreiben wir eine Funktion, mit der wir einen Besucher überprüfen können.
 
-Nun prüft die Funktion, ob der Name in der Liste enthalten ist.
+Falls der Besucher auf der Liste steht, schreibt die Funktion in die Konsole: Willkommen.
 
-Sie gibt den Rückgabewert true zurück, falls ja.
-
-Andernfalls gibt sie den Rückgabewert false zurück.
-
-Hilfsstellung: Mit der Methode includes() suchst du in einem Array.
-
-https://www.w3schools.com/jsref/jsref_includes_array.asp
+Andernsfalls: Bitte trage dich auf der Liste ein.
